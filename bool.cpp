@@ -25,14 +25,24 @@
 //   return 0;
 // }
 
+// #include <iostream>
+
+// int main() {
+//   int sum1 = 100 + 50;        // 150 (100 + 50)
+//   int sum2 = sum1 + 250;      // 400 (150 + 250)
+//   int sum3 = sum2 + sum2;     // 800 (400 + 400)
+//   std::cout << sum1 << "\n";
+//   std::cout << sum2 << "\n";
+//   std::cout << sum3;
+//   return 0;
+// }
+
 #include <iostream>
+using namespace std;
 
 int main() {
-  int sum1 = 100 + 50;        // 150 (100 + 50)
-  int sum2 = sum1 + 250;      // 400 (150 + 250)
-  int sum3 = sum2 + sum2;     // 800 (400 + 400)
-  std::cout << sum1 << "\n";
-  std::cout << sum2 << "\n";
-  std::cout << sum3;
+  int x = 10;
+  x += 5;
+  cout << x;
   return 0;
 }
