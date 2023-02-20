@@ -82,25 +82,42 @@
 //   return 0;
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main() {
-  for (int i = 0; i < 10; i++) {
-    if (i == 4) {
-      continue;
-    }
-    cout << i << "\n";
-  }   
-  return 0;
-}
+// int main() {
+//   for (int i = 0; i < 10; i++) {
+//     if (i == 4) {
+//       continue;
+//     }
+//     cout << i << "\n";
+//   }   
+//   return 0;
+// }
 
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// int main() {
+//   string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+//   cout << cars[0];
+//   return 0;
+// }
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-  string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
-  cout << cars[0];
+  struct {
+    int myNum;
+    string myString;
+  } myStructure;
+
+  myStructure.myNum = 1;
+  myStructure.myString = "Hello World!";
+
+  cout << myStructure.myNum << "\n";
+  cout << myStructure.myString << "\n";
   return 0;
 }
