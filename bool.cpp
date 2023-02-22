@@ -134,3 +134,15 @@ int main() {
   cout << meal << "\n";
   return 0;
 }
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string food = "Pizza";
+
+  cout << food << "\n";
+  cout << &food << "\n";
+  return 0;
+}
